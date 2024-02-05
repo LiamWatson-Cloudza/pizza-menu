@@ -96,7 +96,11 @@ function Pizza(props) {
       <div>
         <h3>{props.name}</h3>
         <p>{props.ingredients}</p>
+<<<<<<< HEAD
         <span>{props.price}</span>
+=======
+        <span>{props.price + 3}</span>
+>>>>>>> 2e0616b008b9469f1e60c9d06bc289d891efd9e9
       </div>
     </div>
   );
