@@ -86,14 +86,16 @@ function Footer() {
   // else alert("Sorry we're closed");
 
   return (
-    <footer>{new Date().toLocaleTimeString()}. Were currently Open!!</footer>
+    <footer className="footer">
+      {new Date().toLocaleTimeString()}. Were currently Open!!
+    </footer>
   );
 }
 function Pizza() {
   return (
     <div>
       <img src="pizzas/spinaci.jpg" alt="Pizza Spinaci" />
-      <h2>Pizza SpinaciPizza</h2>
+      <h3>Pizza SpinaciPizza</h3>
       <p>Tomato, mozarella, spinach, and ricotta cheese</p>
     </div>
   );
