@@ -74,9 +74,10 @@ function Menu() {
       
       <ul classname="pizzas">
         {pizzaData.map((pizza) => (
-        <Pizza pizzaObj={pizza} key={pizza.name} />
+          <Pizza pizzaObj={pizza} key={pizza.name} />
         ))}
       </ul>
+      
       {/* <Pizza
         name="Pizza Spinaci"
         ingredients="Tomato, mozarella, spinach, and ricotta cheese"
