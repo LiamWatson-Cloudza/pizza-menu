@@ -75,6 +75,11 @@ function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
 
+      <p>
+        Authentic Italian cuizine. 6 creative dishes to choose from. All from
+        our stove oven, all organic, all delicious
+      </p>
+
       {numPizzas > 0 ? (
         <ul className="pizzas">
           {pizzas.map((pizza) => (
@@ -82,7 +87,7 @@ function Menu() {
           ))}
         </ul>
       ) : (
-        <p>We're still working on our menu, please come back later:</p>
+        <p>We're still working on our menu, please come back later:)</p>
       )}
 
       {/* <Pizza
