@@ -146,6 +146,7 @@ function Footer() {
     </footer>
   );
 }
+//props are used to pass objects into functions and statements
 
 function Order(props) {
   return (
