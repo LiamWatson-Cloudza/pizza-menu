@@ -116,6 +116,11 @@ body {
   align-self: start;
 }
 
+.pizza img:hover{
+  width: 11rem;
+  transition: all;
+}
+
 .pizza div {
   display: flex;
   flex-direction: column;
@@ -142,11 +147,13 @@ body {
 
 .pizza.sold-out {
   color: #888;
+  transition: none;
 }
 
 .pizza.sold-out img {
   filter: grayscale();
   opacity: 0.8;
+  transition: none;
 }
 
 /* *************** */
@@ -165,17 +172,17 @@ body {
 .btn {
   color: inherit;
   font-family: inherit;
-  border: none;
+  border-radius: 10px;
   font-size: 1.4rem;
   font-weight: 500;
   background-color: #edc84b;
   padding: 1.4rem 3.2rem;
-  cursor: pointer;
-  transition: all 0.2s;
 }
 
 .btn:hover {
   background-color: #e9bb24;
+  font-size: 1.6rem;
+  transition: all;
 }
 
 /*
